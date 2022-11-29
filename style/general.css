@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;0,600;0,900;1,300;1,400&family=Roboto+Mono:ital,wght@0,300;0,500;0,700;1,200;1,300;1,700&family=Roboto+Slab:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap');
+
+/*Reseteo*/
+*{
+    Margin:0px;
+    Padding:0px;
+}
+
+/*Estilos de propiedades generales*/
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: #6CA1F5;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+h1 a:hover{
+    color: Black;
+}
+
+/* ---Mobile First 0px a 480 ---*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.header-m{
+    width: 100%;
+    justify-content: center;
+}
+
+.main-grilla-m{
+    margin: 40px 0px 0px 0px;
+}
+.titulo-sitio{
+    display: none;
+}
+
+/* Estilo de la navegacion*/
+.hamb-img{
+    width: 30px;
+    padding-bottom: 10px;
+}
+.nav-container-m{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(160, 154, 154) solid;
+}
+
+.titulo-sitio-mobile{
+    font: 18px 'Space Mono', monospace;
+    color: black;
+    font-weight: bold;
+    word-spacing: 0px;
+    letter-spacing: 0.5px;
+    margin: 10px 0px 0px 0px;
+    padding:0px 0px 10px 20px;
+}
+
+.nav-checkbox-m{
+    display: none;
+}
+
+.nav-m{
+    font: 14px 'Space Mono', monospace;
+    font-weight:lighter;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    padding: 0px;
+}
+
+nav a {
+    display: block;
+}
+
+ul li a{
+    margin: 25px 0px;
+}
+
+.nav-label{
+    display: block;
+    cursor: pointer;
+    margin: 10px 10px 0px 10px;
+}
+.nav-sitio{
+    position: fixed;
+    top: 54px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    clip-path: circle(0 at center);
+}
+
+.nav-checkbox-m:checked + .nav-sitio{
+    clip-path: circle(100% at center);
+    background: white;
+}
+
+/*Estilo General del Mail*/
+.home-img{
+    width: 440px;
+    height: 656px;
+    padding: 0px 20px;
+    margin: -2px 0px;
+}
+
+/* Estilo del footer */
+footer{
+    padding: 10px 20px;
+}
+
+.linea-footer-divide{
+    height: 1px;
+    width: 5%;
+    background: black;
+    margin: 30px 0 0 1px;
+}
+.footer-redes-sociales{
+    display: none;
+}
+.icono-footer{
+    width: auto;
+    height: 14px;
+    margin: 0 3px 0 3px;
+}
+.info-sitio{
+    font: 10px 'Space Mono', monospace;
+    font-style: italic;  
+    font-weight: 100;
+    margin: 15px 0px;
+    line-height: 20px;
+}
+.copyright-sitio{
+    font: 10px 'Space Mono', monospace;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.creditos-sitio{
+    font: 10px 'Space Mono', monospace;
+    display: block;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+.copyright-sitio a:hover{
+    color: black;
+}
+
+
+/* Estilo about-me */
+.estilo-about{
+    text-decoration: underline;
+}
+
+/* Estilo contact */
+.estilo-contact{
+    text-decoration: underline;
+}
+
+/* Estilo personal photo */
+.estilo-personal{
+    text-decoration: underline;
+}
+
+/* Estilo work */
+.estilo-work{
+    text-decoration: underline;
+}
+
+.container-w{
+    display: block;
+    padding: 0px 0px 20px 31px;
+}
+
+.work-s{
+    font: 14px "Space Mono", monospace;
+    cursor: pointer;
+}
+
+.img-w{
+    width: 420px;
+}
+
+
+@media screen and (min-width: 600px){
+    .home-img{
+        width: 560px;
+        height: auto;
+    }
+    .hamb-img {
+        width: 35px;
+        padding-bottom: 3px;
+    }
+
+    /* Estilo work */
+    
+}
+
+@media screen and (min-width: 760px){
+    .home-img{
+        width: 720px;
+        height: auto;
+    }
+    .main-grilla-m {
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+@media screen and (min-width: 845px){
+    .home-img{
+        width: 805px;
+    }
+}
+
+@media screen and (min-width: 951px){
+    /*Estilos de propiedades Nav*/
+    .hamb-img{
+        display: none;
+    }
+    .nav-checkbox-m{
+        display: none;
+    }
+    .nav-sitio{
+        clip-path: none;
+        position: inherit;
+        top: 0;
+        display: block;
+    }
+    .nav-label{
+        display: none;
+    }
+    .nav-container-m{
+        border-bottom: none;
+        display: block;
+    }
+    .nav-m{
+        text-align: start;
+    }
+    /*Estilo Grilla*/
+    .grilla-sitio{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "header main"
+        "header main"
+        "footer main";
+        grid-template-columns: 20% auto;
+        grid-template-rows: 1fr 2fr 1fr ;
+    }
+
+    header{
+        grid-area: header;
+        margin: 40px 0px 0px 30px;
+    }
+    .main-grilla{
+        grid-area: main;
+        margin: 40px 0px 0px 0px;
+    }
+    
+    footer{
+        grid-area: footer;
+        margin: 0px 0px 40px 30px;
+        padding: 0;
+    }
+    
+    /* Estilo de la navegacion*/
+    .titulo-sitio-mobile{
+        display: none;
+    }
+    .titulo-sitio{
+        display: block;
+        font: 18px 'Space Mono', monospace;
+        color: black;
+        font-weight: bold;
+        word-spacing: 0px;
+        letter-spacing: 0.5px;
+    
+    }
+    
+    nav{
+        margin: 30px 0px 30px 10px;
+    
+    }
+    nav a {
+        display: block;
+        margin: 0px 0px 25px 0px;
+    }
+    
+    
+    /* Estilo del footer */
+    
+    .linea-footer-divide{
+        width: 80%;
+    }
+    .footer-redes-sociales{
+        margin-top:15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+    }
+    .info-sitio{
+        margin: 15px 40px 10px 0px;
+    }
+    
+    
+    /*Estilo General del Mail*/
+    
+    .fotos-carrousel{
+        display: flex;
+    }
+    
+    .home-img{
+        height:600px;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+}

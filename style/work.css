@@ -1,0 +1,58 @@
+
+a:hover{
+    color: black;
+}
+
+.estilo-work{
+    text-decoration: underline;
+}
+
+.container-w{
+    display: block;
+    padding: 0px 0px 20px 31px;
+}
+.work-s{
+    font: 14px "Space Mono", monospace;
+    cursor: pointer;
+}
+
+.img-w{
+    width: 420px;
+}
+
+@media screen and (min-width: 600px){
+    .img-w{
+        width: 535px;
+    }
+
+    .hamb-img {
+        width: 35px;
+        padding-bottom: 3px;
+    }
+    .container-w{
+        padding-bottom: 27px;
+    }
+}
+@media screen and (min-width: 760px){
+    .img-w{
+        width: 697px;
+    }
+}
+@media screen and (min-width: 845px){
+    .img-w{
+        width: 783px;
+    }
+    .linea-footer-divide {
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 951px){
+    .img-w{
+        height: 550px;
+        width: auto;
+    }
+
+    .text-center-d{
+        text-align: center;
+    }
+}
