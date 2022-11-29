@@ -216,7 +216,17 @@ footer{
     }
 
     /* Estilo work */
-    
+    .img-w{
+        width: 535px;
+    }
+
+    .hamb-img {
+        width: 35px;
+        padding-bottom: 3px;
+    }
+    .container-w{
+        padding-bottom: 27px;
+    }
 }
 
 @media screen and (min-width: 760px){
@@ -227,11 +237,23 @@ footer{
     .main-grilla-m {
         margin: 20px 0px 0px 0px;
     }
+
+    /*Estilo Work*/
+    .img-w{
+        width: 697px;
+    }
 }
 
 @media screen and (min-width: 845px){
     .home-img{
         width: 805px;
+    }
+    /*Estilo work */
+    .img-w{
+        width: 783px;
+    }
+    .linea-footer-divide {
+        margin: 0px;
     }
 }
 
@@ -339,5 +361,15 @@ footer{
         width: auto;
         padding: 0;
         margin: 0;
+    }
+
+    /*Estilo work */
+    .img-w{
+        height: 550px;
+        width: auto;
+    }
+
+    .text-center-d{
+        text-align: center;
     }
 }
