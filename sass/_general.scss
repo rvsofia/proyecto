@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;0,600;0,900;1,300;1,400&family=Roboto+Mono:ital,wght@0,300;0,500;0,700;1,200;1,300;1,700&family=Roboto+Slab:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap');
+
+/*Reseteo*/
+*{
+    Margin:0px;
+    Padding:0px;
+}
+
+/*Estilos de propiedades generales*/
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: $color;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+h1{
+    color: black;
+    a:hover{
+        color: black;
+    }
+}
+
+
+/* ---Mobile First 0px a 480 ---*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

@@ -1,0 +1,97 @@
+/* Estilo about-me */
+.estilo-about{
+    text-decoration: underline;
+}
+.main-grilla-m{
+    margin: 27px 24px;
+    article{
+        h1{
+            font: 18px $tipografia;
+            font-weight: bold;
+            margin:20px 0px;
+            font-family: monospace;
+            @media (min-width: 951px) {
+                margin: 0px 0px 20px 0px;
+            }
+        }
+        h2{
+            font: 16px $tipografia;
+            line-height: 2.8rem;
+            text-transform: uppercase;
+        }
+        h3{
+            font: 16px $tipografia;
+            font-weight: bold;
+            line-height: 2.8rem;
+        }
+        p{
+            font: 14px $tipografia;
+            margin-bottom: 30px;
+            line-height: 28px;
+        }
+        .expo-p{
+            font: 14px $tipografia;
+            margin-bottom: 0px;
+            line-height: 30px;
+        }
+    }
+}
+
+/* Estilo contact */
+.estilo-contact{
+    text-decoration: underline;
+}
+
+.main-grilla-m{
+    margin: 27px 24px;
+    div{
+        h1{
+            font: 18px $tipografia;
+            font-weight: bold;
+            white-space: pre-wrap;
+            margin:20px 0px;
+            @media (min-width: 951px) {
+                margin: 0px 0px 20px 0px;
+            }
+        }
+        p{
+            font: 14px $tipografia;
+            margin-bottom: 30px;
+            line-height: 28px;
+            a{
+                cursor: pointer;
+                border-bottom: 1px solid;
+                a:hover{
+                    color: black;
+                }
+                @media (min-width: 951px) {
+                    a:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estilo work y personal photo */
+.estilo-work{
+    text-decoration: underline;
+}
+
+.estilo-personal{
+    text-decoration: underline;
+}
+.container-w{
+    display: block;
+    padding: 0px 0px 20px 31px;
+}
+
+.work-s{
+    font: 14px "Space Mono", monospace;
+    cursor: pointer;
+}
+
+.img-w{
+    width: 420px;
+}

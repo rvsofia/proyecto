@@ -1,0 +1,41 @@
+/* Estilo del footer */
+footer{
+    padding: 10px 20px;
+}
+
+.linea-footer-divide{
+    height: 1px;
+    width: 5%;
+    background: black;
+    margin: 30px 0 0 1px;
+}
+.footer-redes-sociales{
+    display: none;
+}
+.icono-footer{
+    width: auto;
+    height: 14px;
+    margin: 0 3px 0 3px;
+}
+.info-sitio{
+    font: 10px 'Space Mono', monospace;
+    font-style: italic;  
+    font-weight: 100;
+    margin: 15px 0px;
+    line-height: 20px;
+}
+.copyright-sitio{
+    font: 10px 'Space Mono', monospace;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.creditos-sitio{
+    font: 10px 'Space Mono', monospace;
+    display: block;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+.copyright-sitio a:hover{
+    color: black;
+}
