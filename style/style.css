@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;0,600;0,900;1,300;1,400&family=Roboto+Mono:ital,wght@0,300;0,500;0,700;1,200;1,300;1,700&family=Roboto+Slab:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap");
+.my_mixin {
+  height: 656px;
+  width: 440px;
+}
+
 /*Reseteo*/
 * {
   Margin: 0px;
@@ -174,9 +179,9 @@ footer {
 }
 
 .home-img {
-  width: 440px;
   height: 656px;
-  padding: 0px 20px;
+  width: 440px;
+  /*padding: 0px 20px;*/
   margin: -2px 0px;
 }
 
@@ -268,7 +273,8 @@ footer {
 
 .container-w {
   display: block;
-  padding: 0px 0px 20px 31px;
+  /* padding: 0px 0px 20px 31px;*/
+  margin: 0px 5px;
 }
 
 .work-s {
@@ -305,9 +311,13 @@ footer {
   .home-img {
     width: 720px;
     height: auto;
+    margin: 0px 21px;
   }
   .main-grilla-m {
     margin: 20px 0px 0px 0px;
+  }
+  .container-w {
+    margin: 0px 34px;
   }
   /*Estilo Work*/
   .img-w {
