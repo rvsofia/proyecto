@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;0,600;0,900;1,300;1,400&family=Roboto+Mono:ital,wght@0,300;0,500;0,700;1,200;1,300;1,700&family=Roboto+Slab:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap");
-.my_mixin {
-  height: 656px;
-  width: 440px;
-}
-
 /*Reseteo*/
 * {
   Margin: 0px;
@@ -53,12 +48,20 @@ header nav li a {
 }
 
 .header-m {
-  width: 100%;
   justify-content: center;
+  width: 100%;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
   background: white;
+}
+@media (min-width: 951px) {
+  .header-m {
+    padding-right: 72px;
+    margin: 0px 0px 20px 0px;
+    position: fixed;
+    width: auto;
+  }
 }
 
 .titulo-sitio {
@@ -230,9 +233,6 @@ footer {
   text-decoration: underline;
 }
 
-.main-grilla-m {
-  margin: 27px 24px;
-}
 .main-grilla-m div h1 {
   font: 18px "Space Mono", monospace;
   font-weight: bold;
@@ -381,10 +381,15 @@ footer {
     padding-bottom: 170px;
   }
   .main-grilla {
+    padding-left: 9px;
     grid-area: main;
     margin: 40px 0px 0px 0px;
   }
+  .main-grilla-contacto {
+    margin: 40px 0px 271px 0px;
+  }
   footer {
+    /* margin-top: 580px;*/
     grid-area: footer;
     position: -webkit-sticky;
     position: sticky;

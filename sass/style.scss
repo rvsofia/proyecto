@@ -112,11 +112,16 @@
         padding-bottom: 170px;
     }
     .main-grilla{
+        padding-left: 9px;
         grid-area: main;
         margin: 40px 0px 0px 0px;
     }
+    .main-grilla-contacto{
+        margin: 40px 0px 271px 0px;
+    }
     
     footer{
+       /* margin-top: 580px;*/
         grid-area: footer;
         position: sticky;
         left: 0px;
