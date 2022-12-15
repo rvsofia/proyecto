@@ -61,6 +61,7 @@ header nav li a {
     margin: 0px 0px 20px 0px;
     position: fixed;
     width: auto;
+    height: 60%;
   }
 }
 
@@ -112,7 +113,7 @@ header nav li a {
 
 .nav-sitio {
   position: fixed;
-  top: 54px;
+  top: 47px;
   bottom: 0;
   width: 100%;
   left: 0;
@@ -317,7 +318,7 @@ footer {
     margin: 20px 0px 0px 0px;
   }
   .container-w {
-    margin: 0px 34px;
+    /*margin: 0px 34px;*/
   }
   /*Estilo Work*/
   .img-w {
@@ -389,11 +390,10 @@ footer {
     margin: 40px 0px 271px 0px;
   }
   footer {
-    /* margin-top: 580px;*/
+    width: 245.5px;
     grid-area: footer;
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0px;
+    position: fixed;
+    bottom: 0px;
     background: white;
   }
   /* Estilo de la navegacion*/
@@ -433,6 +433,8 @@ footer {
   /*Estilo General del Mail*/
   .fotos-carrousel {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
   }
   .home-img {
     height: 600px;

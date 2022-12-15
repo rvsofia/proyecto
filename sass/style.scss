@@ -43,7 +43,7 @@
         margin: 20px 0px 0px 0px;
     }
     .container-w{
-        margin: 0px 34px;
+        /*margin: 0px 34px;*/
     }
 
     /*Estilo Work*/
@@ -121,10 +121,10 @@
     }
     
     footer{
-       /* margin-top: 580px;*/
+        width: 245.5px;
         grid-area: footer;
-        position: sticky;
-        left: 0px;
+        position: fixed;
+        bottom: 0px;
         background: white;
     }
     
@@ -173,6 +173,8 @@
     
     .fotos-carrousel{
         display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
     
     .home-img{
