@@ -4,6 +4,7 @@
 }
 .home-img{
     @include sizes (440px, 656px);
-    /*padding: 0px 20px;*/
+    /*padding: 0px 20px;
+    @include sizes (60%, auto);*/
     margin: -2px 0px;
 }
