@@ -132,7 +132,7 @@ header nav li a {
 
 /* Estilo del footer */
 footer {
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .linea-footer-divide {
@@ -187,7 +187,7 @@ footer {
   width: 440px;
   /*padding: 0px 20px;
   @include sizes (60%, auto);*/
-  margin: -2px 0px;
+  margin: -2px 20px;
 }
 
 /* Estilo about-me */
@@ -196,7 +196,7 @@ footer {
 }
 
 .main-grilla-m {
-  margin: 27px 24px;
+  margin: 27px 0px;
 }
 .main-grilla-m article h1 {
   font: 18px "Space Mono", monospace;
@@ -229,12 +229,18 @@ footer {
   margin-bottom: 0px;
   line-height: 30px;
 }
+.main-grilla-m .fotos-carrousel .container-w .text-center-d a {
+  margin-left: 23px;
+}
 
 /* Estilo contact */
 .estilo-contact {
   text-decoration: underline;
 }
 
+.main-grilla-m .contacto {
+  margin: 27px 20px;
+}
 .main-grilla-m div h1 {
   font: 18px "Space Mono", monospace;
   font-weight: bold;
@@ -264,6 +270,10 @@ footer {
   }
 }
 
+.main-grilla-contacto div {
+  margin: 0px 21px;
+}
+
 /* Estilo work y personal photo */
 .estilo-work {
   text-decoration: underline;
@@ -286,6 +296,7 @@ footer {
 
 .img-w {
   width: 420px;
+  margin: 0px 24px;
 }
 
 @media screen and (min-width: 600px) {

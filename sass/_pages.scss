@@ -3,7 +3,7 @@
     text-decoration: underline;
 }
 .main-grilla-m{
-    margin: 27px 24px;
+    margin: 27px 0px;
     article{
         h1{
             font: 18px $tipografia;
@@ -35,6 +35,16 @@
             line-height: 30px;
         }
     }
+    .fotos-carrousel{
+        .container-w{
+            .text-center-d{
+                a{
+                    margin-left: 23px;
+                }
+            }
+        }
+
+    }
 }
 
 /* Estilo contact */
@@ -43,6 +53,9 @@
 }
 
 .main-grilla-m{
+    .contacto{
+        margin:27px 20px;
+    }
     div{
         h1{
             font: 18px $tipografia;
@@ -72,7 +85,11 @@
         }
     }
 }
-
+.main-grilla-contacto{
+    div{
+        margin: 0px 21px;
+    }
+}
 /* Estilo work y personal photo */
 .estilo-work{
     text-decoration: underline;
@@ -94,4 +111,5 @@
 
 .img-w{
     width: 420px;
+    margin: 0px 24px;
 }
