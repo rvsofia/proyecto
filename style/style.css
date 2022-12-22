@@ -183,8 +183,8 @@ footer {
 }
 
 .home-img {
-  height: 656px;
-  width: 440px;
+  height: auto;
+  width: 92vw;
   /*padding: 0px 20px;
   @include sizes (60%, auto);*/
   margin: -2px 20px;
@@ -295,7 +295,7 @@ footer {
 }
 
 .img-w {
-  width: 420px;
+  width: 89vw;
   margin: 0px 24px;
 }
 
