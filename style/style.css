@@ -184,10 +184,10 @@ footer {
 
 .home-img {
   height: auto;
-  width: 92vw;
+  width: 90vw;
   /*padding: 0px 20px;
   @include sizes (60%, auto);*/
-  margin: -2px 20px;
+  margin: -2px 0px;
 }
 
 /* Estilo about-me */
@@ -296,7 +296,7 @@ footer {
 
 .img-w {
   width: 89vw;
-  margin: 0px 24px;
+  margin: 0px 0px;
 }
 
 @media screen and (min-width: 600px) {
