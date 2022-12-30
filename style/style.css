@@ -185,8 +185,6 @@ footer {
 .home-img {
   height: auto;
   width: 90vw;
-  /*padding: 0px 20px;
-  @include sizes (60%, auto);*/
   margin: -2px 0px;
 }
 
@@ -234,9 +232,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*@media (min-width: 951px) {
-      display: none;
-  }*/
 }
 
 /* Estilo contact */
@@ -291,7 +286,6 @@ footer {
 
 .container-w {
   display: block;
-  /* padding: 0px 0px 20px 31px;*/
   margin: 0px 5px;
 }
 
@@ -334,9 +328,6 @@ footer {
   }
   .main-grilla-m {
     margin: 20px 0px 0px 0px;
-  }
-  .container-w {
-    /*margin: 0px 34px;*/
   }
   /*Estilo Work*/
   .img-w {
