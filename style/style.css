@@ -229,8 +229,14 @@ footer {
   margin-bottom: 0px;
   line-height: 30px;
 }
-.main-grilla-m .fotos-carrousel .container-w .text-center-d a {
-  margin-left: 23px;
+.main-grilla-m .fotos-carrousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*@media (min-width: 951px) {
+      display: none;
+  }*/
 }
 
 /* Estilo contact */
@@ -443,11 +449,6 @@ footer {
     margin: 15px 40px 10px 0px;
   }
   /*Estilo General del Mail*/
-  .fotos-carrousel {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
   .home-img {
     height: 600px;
     width: auto;

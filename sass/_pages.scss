@@ -36,13 +36,13 @@
         }
     }
     .fotos-carrousel{
-        .container-w{
-            .text-center-d{
-                a{
-                    margin-left: 23px;
-                }
-            }
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*@media (min-width: 951px) {
+            display: none;
+        }*/
 
     }
 }
